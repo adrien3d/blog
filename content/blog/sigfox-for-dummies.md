@@ -29,11 +29,15 @@ It is a network that allows simple (in terms of complexity), and hence cheap and
 
 ### Differenciators
 
-This simplicity allows to use simple and power efficient (devices with up to 10 years of battery) components to add Sigfox radio to a device.
+This simplicity allows to use simple (UART communication for example) and power efficient (devices with up to 10 years of battery) components to add Sigfox radio to a device.
 
-Sigfox technology is based on Ultra Narrow Band. It means that the energy is focused on a tiny frequency range, meaning it can easily go trough the noise and with a long range with little energy.
+Sigfox technology is based on Ultra Narrow Band. It means that the energy is focused on a tiny frequency range, meaning it can easily go trough the noise and with a long range with little energy, and with an high resilience to interferences.
+
+Sigfox is also very low cost compared to other technologies, prices varies with volume and number of messages per day but it can go from 1$ per month to few dollars per year.
 
 With Sigfox, it is the network that is serving the device. It means that the device is sending a message in the air, and it's the network that is listening and will catch it. In a nutshell, Sigfox is a non-connected network.
+
+Sigfox coverage is now very good, with up to 60 countries covered and many others coming, and satellites that will be launched soon to cover blind spots such as oceans...
 
 Finally, to have a downlink (from cloud to device) capability while remaining low power, Sigfox devices are at the initiative of a Downlink message. The device sends a message and indicates at the network it will be available to receive up to 8 bytes of data just after the uplink message.
 
