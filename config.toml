@@ -32,9 +32,9 @@ disableLanguages        = [""]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = "IoTips: everything you need to know about IoT"
     # Sets the meta tag author
-    author              = "HTML5UP and Hugo"
+    author              = "Adrien Chapelet"
     # If you would like to add more comprehensive favicon support passed root
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
@@ -47,7 +47,7 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Adriot Blog"
+    navbarTitle         = "IoTips Blog"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
@@ -57,8 +57,8 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Adriot Blog"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "IoTips Blog"
+    paragraph             = "An IoT blog with tips and tricks."
     rssIntro              = true
     socialIntro           = true
 
@@ -95,7 +95,7 @@ disableLanguages        = [""]
     enabled             = false
     api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
     gitProvider         = "github"  # either "github" or "gitlab"
-    username            = ""
+    username            = "adrien"
     repo                = ""
     branch              = ""
 
@@ -122,25 +122,18 @@ disableLanguages        = [""]
     weight            = 2
 
   [[menu.main]]
-    name              = "Blog"
-    identifier        = "blog"
-    url               = "/blog/"
-    pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 3
-
-  [[menu.main]]
     name              = "Categories"
     identifier        = "categories"
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
-    weight            = 5
+    weight            = 3
 
   [[menu.main]]
     name              = "Contact"
     identifier        = "contact"
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
+    weight            = 4
 
 [Languages]
   # Each language has its own menu.
@@ -171,63 +164,28 @@ disableLanguages        = [""]
       weight            = 2
 
     [[Languages.fr.menu.main]]
-      name              = "Blog"
-      identifier        = "blog"
-      url               = "/blog/"
-      pre               = "<i class='far fa-newspaper'></i>"
-      weight            = 3
-
-    [[Languages.fr.menu.main]]
       name              = "Catégories"
       identifier        = "categories"
       url               = "/categories/"
       pre               = "<i class='fas fa-sitemap'></i>"
-      weight            = 5
+      weight            = 3
 
     [[Languages.fr.menu.main]]
       name              = "Contact"
       identifier        = "contact"
       url               = "/contact/"
       pre               = "<i class='far fa-envelope'></i>"
-      weight            = 6
+      weight            = 4
 
 # Sets Social Media icons to appear and link to your account. Value should be your
 # username unless otherwise noted. These are the icons affected by socialAppearAtTop
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
-  gitlab                = ""
-  stackoverflow         = "" # User Number
-  bitbucket             = ""
-  jsfiddle              = ""
-  codepen               = ""
-  # Publishing Communities
-  medium                = ""
+  github                = "adrien3d"
   # Professional/Business Oriented Communities
   linkedin              = "adriot"
-  foursquare            = ""
-  xing                  = ""
-  slideshare            = ""
   # Social Networks
-  facebook              = "example"
-  googleplus            = ""
-  reddit                = "example"
-  quora                 = ""
-  youtube               = ""
-  whatsapp              = "" # WhatsApp Number
-    # WeChat and QQ need testing.
-    wechat              = ""
-    qq                  = "" # User ID Number
-  instagram             = "example"
-  tumblr                = ""
-  twitter               = "example"
-  skype                 = ""
-  telegram              = "example"
-  googlescholar         = ""
-  orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  twitter               = "adrien3d"
   # Email
-  email                 = "example"
+  email                 = "adrien3d@gmail.com"

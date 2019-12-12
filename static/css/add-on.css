@@ -4,3 +4,18 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3c3b3b;
+  font-family: "Raleway", Helvetica, sans-serif;
+  letter-spacing: 0.15em;
+  line-height: 1.65;
+  text-transform: uppercase;
+}
+
+.button {
+  margin: 2em;
+  display: block;
+  margin-left: 38em;
+  text-align: center;
+}

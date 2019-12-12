@@ -1,29 +1,13 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About IoTips"
+date = "2019-12-12"
 +++
 
-Hugo is a static site engine written in Go.
+IoTips is a website designed to share tips, tricks and quick sheets to different topics.
 
+## Disclaimer
+This website and its content is published under my supervision, and reflects my personal opinions.
 
-It makes use of a variety of open source projects including:
+It is not linked to any previous company I had or I am working with.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+I am not a Sigfox employee, just an IoT enthusiast that get the luck to meet Sigfox early on in 2015.
