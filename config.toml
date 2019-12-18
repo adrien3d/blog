@@ -1,6 +1,6 @@
-baseurl                 = "https://adriot.fr/"
+baseurl                 = "https://iotips.io/"
 DefaultContentLanguage  = "en"
-title                   = "Adriot Blog"
+title                   = "IoTips Blog"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
