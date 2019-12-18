@@ -13,9 +13,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-.button {
+.article-button {
   margin: 2em;
   display: block;
   margin-left: 38em;
   text-align: center;
+}
+
+.about-button {
+  
 }
