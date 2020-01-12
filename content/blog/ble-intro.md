@@ -2,10 +2,10 @@
 author = "Adrien Chapelet"
 categories = ["BLE", "QuickSheet"]
 tags = ["Beginner", "Explanations"]
-date = "2020-01-12"
+date = "2020-01-11"
 description = "BLE introduction"
 featured = "Bluetooth_Smart_Logo.png"
-featuredalt = "A new universe"
+featuredalt = "Smartphone communication"
 featuredpath = "date"
 linktitle = ""
 title = "What is BLE (Bluetooth Low Energy)"
