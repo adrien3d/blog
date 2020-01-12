@@ -36,7 +36,7 @@ The service can use a standard UUID for standard features such as Device Informa
 ### GAP
 GAP stands for Generic Access Profile, and it governs advertising and connections.
 
-Rôles: device can act or as a peripheral device which is a small, low power, resource contrained device that can connect to a much more powerful central device.
+Roles: device can act or as a peripheral device which is a small, low power, resource contrained device that can connect to a much more powerful central device.
 It can also act as a central (like a smartphone or a tablet with a lot of processing power).
 
 A peripheral will set a specific advertising interval, and every time this interval passes, it will retransmit it's main advertising packet. A longer delays saves power but feels less responsive if the device only advertises itself once every 2 seconds instead of every 20ms.
